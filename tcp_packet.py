@@ -5,6 +5,6 @@ destPacket = format(8070, 'x')
 seqNumbr = '00000000'
 ackNumbr = '00000000'
 
-dataOffset = '51020010'
+dataOffset = '50020010'
 
 print(sourcePacket + destPacket + seqNumbr + ackNumbr + dataOffset)
